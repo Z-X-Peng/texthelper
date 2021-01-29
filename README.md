@@ -39,13 +39,21 @@ If you want to use the translator, you need to click the `Translator`, which is 
 
 # Details about this project
 >The `application.py` includes all the functions, which realize the abilities of this project to convert or translate behind the webpages
+
 >The `README.md` contains the introduction of this website, now you are reading it
+
 >During the file of static, the `favicon.ico` shows the icon of this website, I drew this icon
+
 >During the file of static, the `icon.bmp` shows the picture you can see at the top of the website
+
 >During the file of static, the `styles.css` contains some details about the styles of the website
+
 >During the file of templates, the `layout.html` shows us the overall style of this website
+
 >During the file of templates, the `index.html`, in some degrees, maybe you can call it `convertor.html`, which includes the details about, what methods I used to get and show the text. The codes of this part are a little ugly, though it works well. I need to improve it in the future.
+
 >During the file of templates, the `translator.html` includes both the getting the text users input and showing the translated text, and the guider, which sends the text users input to the google translate website, so the users are able to get the google translate outputs, in case, the users are unsure whether the translated results they get in this website are right or not
+
 >Add: google changed the API before, so, I didn't apply the `googletrans`, but `google_trans_new`, which works well
 
 # Ads of this project

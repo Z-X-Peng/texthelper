@@ -1,0 +1,16 @@
+.breadcrumb-item + .breadcrumb-item::before 
+{
+    content: "- ";
+    color: black;
+}
+
+p
+{
+    padding: 7px;
+    text-align: left;
+}
+
+.r
+{
+    padding: 20px;
+}

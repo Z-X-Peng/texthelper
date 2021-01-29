@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Translator
+{% endblock %}
+
+{% block main %}
+    <p style="font-size: 28px; text-align: center;">Here you can translate your text into English</p>
+    <h1></h1>
+    <p>{{info}}</p>
+
+<!--  style="margin-left: 60px;" -->
+    <form action="/translator" method="post">
+        <div class="row">
+            <div class="form-group" style="width: 430px;">
+                <p><label for="text">Text</label></p>
+                <textarea class="form-control" id="text" rows="7" name="post" placeholder="Please input your text" type="text">{{post}}</textarea>
+            </div>
+
+            <div class="form-group" style="width: 430px; margin-left: 30px;">
+                <p><label for="text">Translated Text</label></p>
+                <textarea class="form-control" id="get" rows="7" name="get" placeholder="Translated text" type="text">{{tran}}</textarea>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit" name="tanslate" value="t">Translate Into English</button>
+
+
+    </form>
+
+    <h1></h1>
+    <h1 style="padding: 30px"></h1>
+    <p style="font-size: 28px; text-align: center;">Here you can use google translate</p>
+    <h1 style="padding: 20px"></h1>
+
+    <!--https://translate.google.com/?sl=auto&tl=en&text=hello&op=translate-->
+    <form action="https://translate.google.com/" method="get">
+        <div class="form-group">
+            <div class="r">
+                <input name="sl" type="text" value="auto">
+                <input name="tl" type="text" value="en">
+                <input name="op" type="text" value="translate">
+            </div>
+            <div class="r">
+                <textarea id="text" rows="7" style="width: 430px" name="text" placeholder="Please input your text" type="text">{{text}}</textarea>
+            </div>
+            <div class="r">
+            <input class="btn btn-dark" type="submit" value="Google Translate Outputs">
+            </div>
+        </div>
+    </form>
+
+{% endblock %}

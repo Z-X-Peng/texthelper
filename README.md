@@ -27,9 +27,9 @@ Tips:
 
 ## Relative links
 1. [application](project/application.py)
-2. [index](project/index.html)
-3. [translator](project/translator.html)
-4. [layout](project/layout.html)
+2. [index](project/templates/index.html)
+3. [translator](project/templates/translator.html)
+4. [layout](project/templates/layout.html)
 
 # Commands
 input `flask run` in the `Terminal` 

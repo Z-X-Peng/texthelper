@@ -26,10 +26,10 @@ Tips:
 ```
 
 ## Relative links
-1. [application](project/application.py)
-2. [index](project/templates/index.html)
-3. [translator](project/templates/translator.html)
-4. [layout](project/templates/layout.html)
+1. [application](/application.py)
+2. [index](/templates/index.html)
+3. [translator](/templates/translator.html)
+4. [layout](/templates/layout.html)
 
 # Commands
 input `flask run` in the `Terminal` 

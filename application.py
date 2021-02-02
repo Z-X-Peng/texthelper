@@ -12,7 +12,7 @@ from werkzeug.exceptions import default_exceptions, HTTPException, InternalServe
 from google_trans_new import google_translator
 
 # Configure application
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True

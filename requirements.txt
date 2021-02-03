@@ -4,7 +4,6 @@ Flask-Session
 requests
 gunicorn
 psycopg2
-string
 functools
 tempfile
 google_trans_new

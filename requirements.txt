@@ -4,7 +4,6 @@ Flask-Session
 requests
 gunicorn
 psycopg2
-os
 urllib.parse
 string
 functools

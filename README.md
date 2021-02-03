@@ -36,8 +36,11 @@ Tips:
 
 # Commands
 Input `flask run` in the `Terminal` 
+
 This link will bring you to the `Home` page of the TextHelper website
+
 In the `Home` page, you can use the convertor, which helps you convert your text into lowercase or uppercase
+
 If you want to use the translator, you need to click the `Translator`, which is nearby `Home`
 
 # Details about this project

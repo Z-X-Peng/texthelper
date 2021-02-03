@@ -36,8 +36,8 @@ Session(app)
 
 @app.route("/")
 def index():
-    #return render_template("index.html")
-    return redirect("/index")
+    return render_template("index.html")
+    #return redirect("/index")
 
 
 @app.route("/index", methods=["GET", "POST"])

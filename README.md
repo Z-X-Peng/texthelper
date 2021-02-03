@@ -4,7 +4,7 @@
 
 You can watch the [introduction video](https://youtu.be/GWdkXNxz8-8)
 
-Visit [Texthelper](https://text-helper.herokuapp.com/)
+Visit [TextHelper](https://text-helper.herokuapp.com/)
 
 ## Functions
 >Function 1: Convertor
@@ -21,6 +21,7 @@ How to use it?
 
 1. input your text in the `Text`
 2. click the button of `Translate into English`, then you can get your translated text
+
 ```
 Tips:
 - the text you input can be in any language, and the translated text will be in English
@@ -34,8 +35,8 @@ Tips:
 4. [layout](project/layout.html)
 
 # Commands
-input `flask run` in the `Terminal` 
-this link will bring you to the `Home` page of the TextHelper website
+Input `flask run` in the `Terminal` 
+This link will bring you to the `Home` page of the TextHelper website
 In the `Home` page, you can use the convertor, which helps you convert your text into lowercase or uppercase
 If you want to use the translator, you need to click the `Translator`, which is nearby `Home`
 
